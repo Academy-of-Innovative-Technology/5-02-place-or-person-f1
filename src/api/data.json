@@ -1,5 +1,156 @@
 {
-    "results": [
-        
-    ]
+  "countries": [
+    {
+      "type": "location",
+      "name": "Japan",
+      "population": "125.8 million",
+      "capital": "Tokyo",
+      "national_animal": "Japanese Crane",
+      "languages": ["Japanese"],
+      "national_anthem": "https://www.youtube.com/watch?v=xCkQEY7fMIw",
+      "images": {
+        "flag": "https://example.com/japan-flag.jpg",
+        "city": ["https://example.com/tokyo.jpg", "https://example.com/kyoto.jpg", "https://example.com/osaka.jpg"]
+      },
+      "leader": "Emperor Naruhito"
+    },
+    {
+      "type": "location",
+      "name": "France",
+      "population": "67 million",
+      "capital": "Paris",
+      "national_animal": "Gallic Rooster",
+      "languages": ["French"],
+      "national_anthem": "https://www.youtube.com/watch?v=dKqXc5mn5uQ",
+      "images": {
+        "flag": "https://example.com/france-flag.jpg",
+        "city": ["https://example.com/paris.jpg", "https://example.com/marseille.jpg", "https://example.com/nice.jpg"]
+      },
+      "leader": "Emmanuel Macron"
+    },
+    {
+      "type": "location",
+      "name": "Brazil",
+      "population": "211 million",
+      "capital": "Brasília",
+      "national_animal": "Jaguar",
+      "languages": ["Portuguese"],
+      "national_anthem": "https://www.youtube.com/watch?v=73gkzPxyT9I",
+      "images": {
+        "flag": "https://example.com/brazil-flag.jpg",
+        "city": ["https://example.com/riodejaneiro.jpg", "https://example.com/sao-paulo.jpg", "https://example.com/salvador.jpg"]
+      },
+      "leader": "Jair Bolsonaro"
+    },
+    {
+      "type": "location",
+      "name": "Australia",
+      "population": "25 million",
+      "capital": "Canberra",
+      "national_animal": "Kangaroo",
+      "languages": ["English"],
+      "national_anthem": "https://www.youtube.com/watch?v=3v0pFfTSIkw",
+      "images": {
+        "flag": "https://example.com/australia-flag.jpg",
+        "city": ["https://example.com/sydney.jpg", "https://example.com/melbourne.jpg", "https://example.com/brisbane.jpg"]
+      },
+      "leader": "Scott Morrison"
+    },
+    {
+      "type": "location",
+      "name": "Egypt",
+      "population": "100 million",
+      "capital": "Cairo",
+      "national_animal": "Steppe Eagle",
+      "languages": ["Arabic"],
+      "national_anthem": "https://www.youtube.com/watch?v=tdOY1x3bzQU",
+      "images": {
+        "flag": "https://example.com/egypt-flag.jpg",
+        "city": ["https://example.com/cairo.jpg", "https://example.com/alexandria.jpg", "https://example.com/giza.jpg"]
+      },
+      "leader": "Abdel Fattah el-Sisi"
+    }
+  ],
+  "people": [
+    {
+      "name": "Albert Einstein",
+      "birth_date": "14 March 1879",
+      "county": "Ulm, Germany",
+      "background": ["German", "Jewish"],
+      "parents": [
+        {"mother": "Hermann Einstein"},
+        {"father": "Pauline Koch"}
+      ],
+      "education": ["Swiss Federal Polytechnic", "Princeton University"],
+      "images": {
+        "person": "https://example.com/einstein.jpg",
+        "awards": ["https://example.com/nobel-prize.jpg", "https://example.com/academic.jpg"]
+      },
+      "most_popular_works": ["Theory of Relativity", "Photoelectric Effect"]
+    },
+    {
+      "name": "Mahatma Gandhi",
+      "birth_date": "2 October 1869",
+      "county": "Porbandar, India",
+      "background": ["Indian", "Hindu"],
+      "parents": [
+        {"mother": "Putlibai Gandhi"},
+        {"father": "Karamchand Gandhi"}
+      ],
+      "education": ["University of London", "University of Cambridge"],
+      "images": {
+        "person": "https://example.com/gandhi.jpg",
+        "awards": ["https://example.com/nobel-peace.jpg"]
+      },
+      "most_popular_works": ["Nonviolent Resistance", "Indian Independence Movement"]
+    },
+    {
+      "name": "Nelson Mandela",
+      "birth_date": "18 July 1918",
+      "county": "Mvezo, South Africa",
+      "background": ["South African", "Xhosa"],
+      "parents": [
+        {"mother": "Gerty Fanny"},
+        {"father": "Henry Gadla"}
+      ],
+      "education": ["University of Fort Hare", "University of Witwatersrand"],
+      "images": {
+        "person": "https://example.com/mandela.jpg",
+        "awards": ["https://example.com/nobel-prize-peace.jpg"]
+      },
+      "most_popular_works": ["Anti-apartheid Movement", "First Black President of South Africa"]
+    },
+    {
+      "name": "Frida Kahlo",
+      "birth_date": "6 July 1907",
+      "county": "Coyoacán, Mexico",
+      "background": ["Mexican", "Indigenous Mexican"],
+      "parents": [
+        {"mother": "Matilde Calderón"},
+        {"father": "Guillermo Kahlo"}
+      ],
+      "education": ["National Preparatory School", "Academy of San Carlos"],
+      "images": {
+        "person": "https://example.com/kahlo.jpg",
+        "awards": ["https://example.com/painter-awards.jpg"]
+      },
+      "most_popular_works": ["Self-Portraits", "The Two Fridas"]
+    },
+    {
+      "name": "Leonardo da Vinci",
+      "birth_date": "15 April 1452",
+      "county": "Vinci, Italy",
+      "background": ["Italian", "Renaissance Man"],
+      "parents": [
+        {"mother": "Caterina"},
+        {"father": "Piero da Vinci"}
+      ],
+      "education": ["Workshop of Andrea del Verrocchio"],
+      "images": {
+        "person": "https://example.com/davinci.jpg",
+        "awards": ["https://example.com/renaissance-achievements.jpg"]
+      },
+      "most_popular_works": ["Mona Lisa", "The Last Supper"]
+    }
+  ]
 }
